@@ -4,4 +4,6 @@
 	°F = (°C × 9/5) + 32
 */
 
-const celciusToFarenheit = celcius => { }
+const celciusToFarenheit = celcius => { 
+	return (celcius * 9/5) + 32;
+}
